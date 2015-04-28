@@ -1,0 +1,49 @@
+body {
+    font-family: Verdana, Arial, Sans-Serif;
+    font-size: 14px;
+    text-align: center;
+    background: url(background.jpg) no-repeat center center fixed;
+    /*background-color: #FAFDCA;*/
+}
+
+#header {
+	font-size: 26px;
+	margin-top: 60px;
+	margin-bottom: 32px;
+}
+
+#myCanvas {
+	margin: 18px;
+    background-color: rgba(146, 119, 172, 0.6);
+    width: 600px;
+    height: 450px;
+}
+
+.game-controls {
+	padding: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+	background: rgba(223, 117, 20, 0.7);
+	border-radius: 5px;
+	border: none;
+	color: white;
+	font-size: 20px;
+}
+
+#instructions {
+width: 600px;
+display: inline-block;
+}
+
+#instructions > * {
+	text-align: left;
+	margin-top: 15px;
+}
+
+#instructions > p {
+	margin-top: 28px;
+}
+
+#instructions > ul {
+	list-style-type: square;
+}

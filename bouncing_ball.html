@@ -1,0 +1,43 @@
+<!doctype html>
+<!-- bouncing_ball.html
+  The sceleton for a simple JavaScript Bouncing Ball example
+  Date: 04/28/2015
+-->
+<html lang="en">
+
+    <head>
+      <meta charset="utf-8">
+      <title>Bouncing Ball</title>
+      <meta name="description" content="A (very) simple bouncing ball example">
+      <meta name="author" content="Vela Mineva">
+      <link rel="stylesheet" href="bouncing_ball.css">
+    </head>
+
+    <body onLoad="init();">
+        <div id="header">
+            <p>Bouncing Ball Example</p>
+        </div>
+
+        <canvas id="myCanvas" width="600" height="450">
+            Your browser does not support the canvas element! Sorry!
+        </canvas>
+
+        <div>
+          <button class="game-controls" type="button" onclick="start()">START</button>
+          <button class="game-controls" type="button" onclick="pause()">PAUSE</button>
+          <button class="game-controls" type="button" onclick="reset()">RESET</button>
+        </div>
+
+        <div id="instructions">
+          <p>Instructions:</p>
+          <ul>
+            <li>To begin the game, press the 'START' button.</li>
+            <li>To move the paddle, click on it and move the mouse.</li>
+            <li>Note that the velocity of the ball, the width and/or the radius change randomly.</li>
+          </ul>
+        </div>
+
+      <script src="bouncing_ball.js"></script>
+    </body>
+
+</html>
